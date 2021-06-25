@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sidebar.css';
-import {Button} from "@material-ui/core";
+import {Button, IconButton} from "@material-ui/core";
 import AddIcon from "@material-ui/icons/Add";
 import SidebarOption from './SidebarOption';
 import InboxIcon from "@material-ui/icons/Inbox";
@@ -9,7 +9,10 @@ import AccessTimeIcon from "@material-ui/icons/AccessTime";
 import LabelImportantIcon from "@material-ui/icons/LabelImportant";
 import NearMeIcon from "@material-ui/icons/NearMe";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import NoteIcon from "@material-ui/icons/Note";
+import PersonIcon from "@material-ui/icons/Person";
+import DuoIcon from "@material-ui/icons/Duo";
+import PhoneIcon from "@material-ui/icons/Phone";
+// import NoteIcon from "@material-ui/icons/Note";
 
 function Sidebar ()  {
     return (
@@ -22,6 +25,20 @@ function Sidebar ()  {
             <SidebarOption Icon ={NearMeIcon} Title="Sent" number={54}/>
             {/* <SidebarOption Icon ={NoteIcon} Title="Drafts" number={54}/> */}
             <SidebarOption Icon ={ExpandMoreIcon} Title="More" number={54}/>
+
+            <div className="sidebar-footer">
+                <div className="sidebar-footerIcons">
+                    <IconButton>
+                        <PersonIcon/>
+                    </IconButton>
+                    <IconButton>
+                        <DuoIcon/>
+                    </IconButton>
+                    <IconButton>
+                        <PhoneIcon/>
+                    </IconButton>
+                </div>
+            </div>
         </div>
     );
 }
