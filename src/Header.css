@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+}
+
+.left-header img{
+    object-fit: contain;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.middle-header{
+    display: flex;
+    align-items: center;
+    flex:0.7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.middle-header .MuiSvgIcon-root{
+    color: grey;
+}
+
+.middle-header input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline-width: 0;
+    font-size: medium;
+    background-color: transparent;
+}
