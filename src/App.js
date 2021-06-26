@@ -6,6 +6,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  // eslint-disable-next-line
   Link
 } from "react-router-dom";
 import Mail from './Mail';
