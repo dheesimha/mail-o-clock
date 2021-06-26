@@ -16,7 +16,7 @@ function Header() {
           <IconButton>
         <MenuIcon/>
         </IconButton>
-        <img src="https://1000logos.net/wp-content/uploads/2018/04/Gmail-logo-new.jpg" alt="gmail-logo"/>
+        <img src="/images/logo.png" alt="gmail-logo"/>
       </div>
       <div className="middle-header">
         <SearchIcon/>
